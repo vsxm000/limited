@@ -1,0 +1,73 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #f3ad14;
+}
+img,input {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    outline-style: none;
+    border: 0 none;
+}
+// 控制小圆样式
+.active0 {
+    width: 35px;
+    height: 16px;
+    border-radius: 8px;
+    background-color: #f3ad14;
+}
+// 控制切换按钮样式
+.active1 {
+    border: 1px solid #ccc;
+}
+.no_active {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;               
+    background-color: #ccc;
+}
+// 控制 .img 样式
+.overflow {
+    overflow: hidden;
+}
+.active2 {
+    border: 2px solid #f3ad14;
+}
+// 控制购买栏样式
+.active3 {
+    position: fixed;
+    top: 0;
+    right: 160px;
+}
+.active4 {
+    margin-left: 22px;
+    margin-top: 80px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}

@@ -1,0 +1,358 @@
+// 顶部
+.top {
+    height: 100px;
+    line-height: 100px;
+    background-color: #1f1f1f;
+    .w {
+        .l {
+            span {
+                color: #f3ad14;
+                font-size: 25px;
+                vertical-align: middle;
+            }
+            a {
+                color: #fff;
+                font-size: 15px;
+                padding-left: 10px;
+                vertical-align: middle;
+            }
+        }
+        .m {
+            width: 113px;
+            margin-left: 439px;
+            a {
+                display: block;
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .More {
+            margin-left: 200px;
+            span {
+                color: #f3ad14;
+                font-size: 25px;
+                vertical-align: middle;
+            }
+            a {
+                color: #fff;
+                font-size: 15px;
+                padding-left: 10px;
+                vertical-align: middle;
+            }
+        }
+        .r {
+            span {
+                color: #f3ad14;
+                font-size: 25px;
+                vertical-align: middle;
+            }
+            a {
+                color: #fff;
+                font-size: 15px;
+                padding-left: 10px;
+                vertical-align: middle;
+            }
+        }
+    }
+}
+// 插件
+.htmleaf-container {
+    position: fixed;
+    background-color: rgba(250, 250, 250, 0.5);
+    width: 100%;
+    height: 750px;
+    top: 0;
+    z-index: 100;
+    overflow: hidden;
+    height: 0;
+    // 关闭按钮
+    .c {
+        position: absolute;
+        right: 50px;
+        top: 10px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        cursor: pointer;
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+    }
+    // 进入商城
+    .s {
+        position: absolute;
+        left: 50px;
+        top: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 120px;
+        border-radius: 5px;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+        span {
+            color: #f3ad14;
+            font-size: 25px;
+            vertical-align: middle;
+        }
+        a {
+            color: #fff;
+            font-size: 20px;
+            vertical-align: middle;
+            &:hover {
+                color: #fac34a;
+            }
+        }
+    }
+}
+// 背景
+.bg {
+    height: 600px;
+    background: url('../xsc_img/bg.png') center top no-repeat;
+}
+// 内容
+.content {
+    // 左侧内容
+    .con_l {
+        width: 792px;
+        position: relative;
+        .title {
+            padding-top: 28px;
+            font-weight: 700;
+            font-size: 24px;
+            height: 60px;
+            box-sizing: border-box;
+            .t {
+                width: 100px;
+                position: absolute;
+                &:nth-child(2) {
+                    display: none;
+                }
+            }
+        }
+        .controls {
+            position: absolute;
+            top: 30px;
+            left: 680px;
+            span {
+                display: block;
+                &:nth-child(2) {
+                    margin-left: 30px; 
+                }
+            }
+        }
+        .img {
+            width: 792px;
+            height: 640px;
+            position: relative;
+            .con {
+                position: absolute;
+                &:nth-child(2) {
+                    display: none;
+                }
+            }
+            // 点击展示
+            .unfold {
+                position: absolute;
+                top: 600px;
+                left: 50%;
+                transform: translateX(-50%);
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    // 右侧内容
+    .con_r {
+        width: 386px;
+        strong {
+            color: #202020;
+            font-size: 30px;
+        }
+        p {
+            color: #444;
+            font-size: 14px;
+        }
+        // 切换按钮
+        .tab_btn {
+            span {
+                display: block;
+                width: 178px;
+                height: 40px;
+                padding: 5px 0px 5px 12px;
+                box-sizing: border-box;
+                margin-top: 20px;
+                &:hover {
+                    cursor: pointer;
+                }
+                &:nth-child(4) {
+                    position: relative;
+                }
+                span {
+                    // display: block;
+                    width: 55px;
+                    height: 15px;
+                    padding: 0;
+                    line-height: 15px;
+                    text-align: center;
+                    font-size: 12px;
+                    border-radius: 5px 5px 0 0;
+                    color: #fff;
+                    background-color: #ff3030;
+                    position: absolute;
+                    right: -5px;
+                    top: -30px;
+                }
+            }
+        }
+        // 切换图片
+        .tab_img {
+            .line {
+                font-size: 13px;
+                color: #888;
+                margin-top: 25px;
+                i {
+                    display: inline-block;
+                    width: 300px;
+                    height: 1px;
+                    background-color: #eee;
+                    vertical-align: middle;
+                    margin-left: 11px;
+                }
+            }
+            .img {
+                ul {
+                    display: none;
+                    &:nth-child(2) {
+                        display: block;
+                    }
+                    li {
+                        width: 90px;
+                        margin-right: 8px;
+                        margin-top: 20px;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                        img {
+                            width: 100%;
+                        }
+                        span {
+                            display: block;
+                            height: 30px;
+                            line-height: 30px;
+                            text-align: center;
+                            background-color: #fbfbfb;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .count_money {
+                .money {
+                    margin-top: 40px;
+                    border-top: 1px solid #eee;
+                    padding-top: 25px;
+                    font-size: 14px;
+                    display: none;
+                    &:nth-child(1) {
+                        display: block;
+                    }
+                    .count {
+                        color: #f3ad14;
+                    }
+                    .sumPrice {
+                        padding-left: 133px;
+                    }
+                    .price {
+                        font-size: 30px;
+                        color: #ff3030;
+                        font-weight: 700;
+                        padding-left: 24px;
+                        vertical-align: middle;
+                    }
+                }
+            }
+            .buy {
+                a {
+                    display: block;
+                    width: 385px;
+                    height: 72px;
+                    line-height: 72px;
+                    text-align: center;
+                    border-radius: 10px;
+                    background-color: #f3ad14;
+                    margin-top: 28px;
+                    color: #fff;
+                    font-size: 22px;
+                    &:hover {
+                        background-color: #fac34a;
+                    }
+                }
+            }
+            .app {
+                text-align: center;
+                color: #ff3030;
+                font-size: 16px;
+                padding-top: 5px;
+                display: none;
+            }
+        }
+    }
+    // 返回顶部按钮
+    .toTop {
+        color: #f3ad14;
+        font-size: 45px;
+        position: fixed;
+        right: 10px;
+        bottom: 225px;
+        display: none;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+// 活动规则
+.rules {
+    height: 266px;
+    background-color: #f8f8f8;
+    padding-top: 30px;
+    box-sizing: border-box;
+    .w {
+        strong {
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
+            padding-right: 100px;
+            line-height: 30px;
+        }
+    }
+}
+// 底部
+.footer {
+    height: 225px;
+    background-color: #000;
+    overflow: hidden;
+    .w {
+        position: relative;
+        .logo {
+            width: 280px;
+            height: 107px;
+            margin: 59px auto;
+        }
+        .code {
+            width: 100px;
+            position: absolute;
+            right: 0;
+            top: 10px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

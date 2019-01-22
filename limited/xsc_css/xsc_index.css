@@ -1,0 +1,323 @@
+.top {
+  height: 100px;
+  line-height: 100px;
+  background-color: #1f1f1f;
+}
+.top .w .l span {
+  color: #f3ad14;
+  font-size: 25px;
+  vertical-align: middle;
+}
+.top .w .l a {
+  color: #fff;
+  font-size: 15px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+.top .w .m {
+  width: 113px;
+  margin-left: 439px;
+}
+.top .w .m a {
+  display: block;
+  width: 100%;
+}
+.top .w .m a img {
+  width: 100%;
+}
+.top .w .More {
+  margin-left: 200px;
+}
+.top .w .More span {
+  color: #f3ad14;
+  font-size: 25px;
+  vertical-align: middle;
+}
+.top .w .More a {
+  color: #fff;
+  font-size: 15px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+.top .w .r span {
+  color: #f3ad14;
+  font-size: 25px;
+  vertical-align: middle;
+}
+.top .w .r a {
+  color: #fff;
+  font-size: 15px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+.htmleaf-container {
+  position: fixed;
+  background-color: rgba(250, 250, 250, 0.5);
+  width: 100%;
+  height: 750px;
+  top: 0;
+  z-index: 100;
+  overflow: hidden;
+  height: 0;
+}
+.htmleaf-container .c {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer;
+}
+.htmleaf-container .c:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.htmleaf-container .s {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 120px;
+  border-radius: 5px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+}
+.htmleaf-container .s span {
+  color: #f3ad14;
+  font-size: 25px;
+  vertical-align: middle;
+}
+.htmleaf-container .s a {
+  color: #fff;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.htmleaf-container .s a:hover {
+  color: #fac34a;
+}
+.bg {
+  height: 600px;
+  background: url('../xsc_img/bg.png') center top no-repeat;
+}
+.content .con_l {
+  width: 792px;
+  position: relative;
+}
+.content .con_l .title {
+  padding-top: 28px;
+  font-weight: 700;
+  font-size: 24px;
+  height: 60px;
+  box-sizing: border-box;
+}
+.content .con_l .title .t {
+  width: 100px;
+  position: absolute;
+}
+.content .con_l .title .t:nth-child(2) {
+  display: none;
+}
+.content .con_l .controls {
+  position: absolute;
+  top: 30px;
+  left: 680px;
+}
+.content .con_l .controls span {
+  display: block;
+}
+.content .con_l .controls span:nth-child(2) {
+  margin-left: 30px;
+}
+.content .con_l .img {
+  width: 792px;
+  height: 640px;
+  position: relative;
+}
+.content .con_l .img .con {
+  position: absolute;
+}
+.content .con_l .img .con:nth-child(2) {
+  display: none;
+}
+.content .con_l .img .unfold {
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.content .con_l .img .unfold:hover {
+  cursor: pointer;
+}
+.content .con_r {
+  width: 386px;
+}
+.content .con_r strong {
+  color: #202020;
+  font-size: 30px;
+}
+.content .con_r p {
+  color: #444;
+  font-size: 14px;
+}
+.content .con_r .tab_btn span {
+  display: block;
+  width: 178px;
+  height: 40px;
+  padding: 5px 0px 5px 12px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.content .con_r .tab_btn span:hover {
+  cursor: pointer;
+}
+.content .con_r .tab_btn span:nth-child(4) {
+  position: relative;
+}
+.content .con_r .tab_btn span span {
+  width: 55px;
+  height: 15px;
+  padding: 0;
+  line-height: 15px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  background-color: #ff3030;
+  position: absolute;
+  right: -5px;
+  top: -30px;
+}
+.content .con_r .tab_img .line {
+  font-size: 13px;
+  color: #888;
+  margin-top: 25px;
+}
+.content .con_r .tab_img .line i {
+  display: inline-block;
+  width: 300px;
+  height: 1px;
+  background-color: #eee;
+  vertical-align: middle;
+  margin-left: 11px;
+}
+.content .con_r .tab_img .img ul {
+  display: none;
+}
+.content .con_r .tab_img .img ul:nth-child(2) {
+  display: block;
+}
+.content .con_r .tab_img .img ul li {
+  width: 90px;
+  margin-right: 8px;
+  margin-top: 20px;
+}
+.content .con_r .tab_img .img ul li:last-child {
+  margin-right: 0;
+}
+.content .con_r .tab_img .img ul li img {
+  width: 100%;
+}
+.content .con_r .tab_img .img ul li span {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: #fbfbfb;
+  font-size: 12px;
+}
+.content .con_r .tab_img .count_money .money {
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+  padding-top: 25px;
+  font-size: 14px;
+  display: none;
+}
+.content .con_r .tab_img .count_money .money:nth-child(1) {
+  display: block;
+}
+.content .con_r .tab_img .count_money .money .count {
+  color: #f3ad14;
+}
+.content .con_r .tab_img .count_money .money .sumPrice {
+  padding-left: 133px;
+}
+.content .con_r .tab_img .count_money .money .price {
+  font-size: 30px;
+  color: #ff3030;
+  font-weight: 700;
+  padding-left: 24px;
+  vertical-align: middle;
+}
+.content .con_r .tab_img .buy a {
+  display: block;
+  width: 385px;
+  height: 72px;
+  line-height: 72px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #f3ad14;
+  margin-top: 28px;
+  color: #fff;
+  font-size: 22px;
+}
+.content .con_r .tab_img .buy a:hover {
+  background-color: #fac34a;
+}
+.content .con_r .tab_img .app {
+  text-align: center;
+  color: #ff3030;
+  font-size: 16px;
+  padding-top: 5px;
+  display: none;
+}
+.content .toTop {
+  color: #f3ad14;
+  font-size: 45px;
+  position: fixed;
+  right: 10px;
+  bottom: 225px;
+  display: none;
+}
+.content .toTop:hover {
+  cursor: pointer;
+}
+.rules {
+  height: 266px;
+  background-color: #f8f8f8;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.rules .w strong {
+  font-size: 24px;
+}
+.rules .w p {
+  font-size: 16px;
+  padding-right: 100px;
+  line-height: 30px;
+}
+.footer {
+  height: 225px;
+  background-color: #000;
+  overflow: hidden;
+}
+.footer .w {
+  position: relative;
+}
+.footer .w .logo {
+  width: 280px;
+  height: 107px;
+  margin: 59px auto;
+}
+.footer .w .code {
+  width: 100px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.footer .w .code img {
+  width: 100%;
+}
